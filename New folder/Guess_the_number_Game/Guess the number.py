@@ -6,6 +6,7 @@ print("Instructions:\n1)Guess the number.\n2)If game shows Guessed no. < Generat
 print("Good Luck")
 print("Press Enter key to start game....")
 input()
+
 print("Number is generated..")
 
 Generated_number = random.randint(1,100)
