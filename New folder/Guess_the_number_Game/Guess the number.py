@@ -15,7 +15,8 @@ while True:
     user_number = int(input(f"Attempt {i} : "))
     if user_number == Generated_number:
         print(f"You Won you gessed the generated number '{Generated_number}' in '{i}' Attempts.")
-        print("your score is : *" ,(100 - i)," * ")
+        score = 100 - i
+        print("your score is : * {score} * ")
         break
     i += 1
     if user_number > Generated_number:
